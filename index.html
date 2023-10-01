@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM + WebFonts</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- BEM
+    Б - Блок (menu)
+    E - Елемент (menu_item, menu_link)
+    М - Модифікатор 
+    Звертаємось тільки по класах-->
+
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/image/icon_3.png" alt="" class="logo_img">
+        </div>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Company</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contacts</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Blog</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="btn">
+            <a href="" class="btn__link">Sign in</a>
+        </div>
+    </header>
+
+    <footer class="footer">
+        <nav class="nav header__nav">
+            <ul class="menu menu_smaller">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Company</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contacts</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
